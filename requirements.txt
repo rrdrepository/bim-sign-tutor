@@ -1,0 +1,10 @@
+# Stage 1: webcam + hand tracking
+# (mediapipe already installs opencv-contrib-python, which includes everything
+#  in opencv-python. Installing both causes clashes, so we use only this one.)
+opencv-contrib-python>=4.8
+mediapipe>=0.10.14
+numpy
+
+# Stage 2: training the sign classifier
+scikit-learn>=1.4
+matplotlib

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Your own recordings and progress. These are recordings of your hands,
+# so they stay on your computer.
+data/
+
+# Trained models and the downloaded MediaPipe hand model (recreated on first run)
+models/
+
+# Editors and OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
